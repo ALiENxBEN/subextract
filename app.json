@@ -4,6 +4,14 @@
     "API_ID": {
       "description": "Add your telegram API_ID",
       "value": ""
+      ],
+	"repository": "https://github.com/Anuragben10/subextract",
+	"stack": "heroku-22",
+	"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "eco"
+		}
     },
     "API_HASH": {
       "description": "Add your telegram API_HASH",
